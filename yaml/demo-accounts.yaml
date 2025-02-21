@@ -22,7 +22,7 @@ spec:
                   - key: "hostname"
                     operator: In
                     values:
-                      - "k8s-vga-worker2"
+                      - "k8s-vga-worker1"
       containers:
       - name: team5-eureka-client-account
         image: k8s-vga-worker1:5000/img-team5-eureka-client-account:latest
