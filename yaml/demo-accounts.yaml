@@ -14,6 +14,8 @@ spec:
       labels:
         app: team5-eureka-client-account
     spec:
+      nodeSelector:
+        java: "21"
       containers:
       - name: team5-eureka-client-account
         image: k8s-vga-worker1:5000/img-team5-eureka-client-account:latest
