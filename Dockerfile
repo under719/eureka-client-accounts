@@ -1,6 +1,5 @@
 # Base image
-#FROM openjdk:21-jdk-slim
-FROM eclipse-temurin:21
+FROM openjdk:21-jdk-slim
 
 # Add a volume pointing to /tmp
 WORKDIR /tmp
